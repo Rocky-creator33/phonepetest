@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!packages\\.json|pixel\\.js|main\\.css|.*\\.php|.*\\.png|.*\\.jpg|.*\\.svg|.*\\.ico|static/.*).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
