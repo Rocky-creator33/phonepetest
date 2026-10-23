@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/((?!packages\\.json|pixel\\.js|main\\.css|.*\\.php|.*\\.png|.*\\.jpg|.*\\.svg|.*\\.ico|static/.*).*)",
+      "source": "/((?!packages\\.json|upi\\.txt|pixel\\.js|main\\.css|images/.*|.*\\.php|.*\\.png|.*\\.jpg|.*\\.svg|.*\\.ico|static/.*).*)",
       "destination": "/index.html"
     }
   ]
